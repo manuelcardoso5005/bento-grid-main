@@ -109,6 +109,11 @@ body {
 .box-2 figure img {
   width: 100%;
 }
+
+.box-2 h3 {
+  font-size: 2em;
+  line-height: 1em;
+}
 /* Figura Geral */
 .figure {
   /* Placeholder para futuros estilos de figura */
