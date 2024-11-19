@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* Variáveis de Cores */
+:root {
+  /* Purple */
+  --color-purple-100: hsl(254, 88%, 90%);
+  --color-purple-500: hsl(256, 67%, 59%);
+
+  /* Yellow */
+  --color-yellow-100: hsl(31, 66%, 93%);
+  --color-yellow-500: hsl(39, 100%, 71%);
+
+  /* Neutral */
+  --color-white: rgb(255, 255, 255);
+  --color-black: hsl(0, 0%, 7%);
+}
+
+/* Reset e Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", serif;
+  font-weight: 400;
+  background-color: hsl(0, 0%, 96%);
+}
+
+/* Cores */
+.purple {
+  background-color: var(--color-purple-500);
+}
+
+.yellow {
+  background-color: var(--color-yellow-500);
+}
+
+.text-yellow {
+  color: var(--color-yellow-500);
+}
+
+.soft-yellow {
+  background-color: var(--color-yellow-100);
+}
+
+.soft-purple {
+  background-color: var(--color-purple-100);
+}
+
+.white {
+  background-color: rgb(251, 251, 251);
+}
+
+/* Texto */
+.text-italic {
+  font-style: italic;
+}
+
+/* Estilos Gerais para Box */
+.box {
+  border-radius: 1em;
+}
+
+.box-1 figure {
+  position: relative;
+}
+
+/* Box 1 */
+.box-1 {
+  text-align: center;
+  padding: 3em;
+}
+
+.box-1 h1 {
+  color: var(--color-white);
+  font-size: 4em;
+  line-height: 1em;
+  margin-bottom: 0.3em;
+}
+
+.box-1 figure {
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+  padding: 0 4em;
+}
+
+.box-1 p {
+  color: var(--color-white);
+  font-size: 1.5em;
+  margin-top: 0.3em;
+}
+
+.box-1 figure img {
+  width: 100%;
+}
+
+/* Box 2 */
+.box-2 {
+  padding: 0.5em 1em;
+}
+
+.box-2 .image {
+  margin-bottom: 2em;
+}
+
+.box-2 figure img {
+  width: 100%;
+}
+/* Figura Geral */
+.figure {
+  /* Placeholder para futuros estilos de figura */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  #container {
+    padding: 3.5em 2rem 0 2rem;
+  }
+
+  .box {
+    margin-bottom: 3em;
+  }
+}
